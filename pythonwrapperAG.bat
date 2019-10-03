@@ -1,0 +1,2 @@
+C:\Python27\ArcGISx6410.5\python.exe %1
+IF %ERRORLEVEL% NEQ 0 PAUSE
