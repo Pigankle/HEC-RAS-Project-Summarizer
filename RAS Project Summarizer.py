@@ -1,10 +1,10 @@
 #!usr/bin/env python
 #-*- coding: utf-8 -*-
 
-# RAS Project Summarizer
+# RAS Project Summarizer originally created
 # 9/30/2019
 # Adam Price
-# juneappal@gmail.com
+# pigankle@gmail.com
 #
 # PURPOSE: This script will analyze the project files for a RAS model, 
 #and the plans, geometries and flow files in the same folder.  The 
