@@ -28,13 +28,13 @@
 #		file will be created instead.
 #
 #Examples for manual entry of path name when running from an IDE:
-#If the project file is "D:\FLATHEAD RAS\Flathead_CF2SB\Flathead_CF2SB.prj"
+#If the project file is "D:\STYX_FLOODING\STYX_2D\STYX_2D.prj"
 #then either of these will work:
-#   fullpath = "D:\FLATHEAD RAS\Flathead_CF2SB"
-#   fullpath = "D:\FLATHEAD RAS\Flathead_CF2SB\\Flathead_CF2SB.prj"
+#   fullpath = "D:\STYX_FLOODING\STYX_2D\"
+#   fullpath = "D:\STYX_FLOODING\STYX_2D\STYX_2D.prj"
 #
 # For the project file below, the file name does not match the enclosing directory, so the full path is required.
-#   fullpath = "D:\AlaWai\AlaWai_RAS_5_0_7_needs_review_Clean\AlaWaiFuture.prj"
+#   fullpath = "D:\STYX_FLOODING\STYX_2D\AsphodelLevees.prj"
 
 ###############Begin Script
 #import packages
@@ -66,7 +66,7 @@ fullpath = tkFileDialog.askopenfilename(parent = root, initialdir = 'c:' ,
 
 
 #If the script is run from an IDE, the file path can be manually entered
-##fullpath = "D:\FLATHEAD RAS\Flathead_CF2SB\\"	
+#   fullpath = "D:\STYX_FLOODING\STYX_2D\AsphodelLevees.prj"
 
 #Parse fullpath.  
 if fullpath[-4:] == ".prj":
