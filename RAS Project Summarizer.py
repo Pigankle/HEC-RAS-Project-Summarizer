@@ -28,13 +28,13 @@
 #		file will be created instead.
 #
 #Examples for manual entry of path name when running from an IDE:
-#If the project file is "D:\STYX_FLOODING\STYX_2D\STYX_2D.prj"
+#If the project file is `"D:\STYX_FLOODING\STYX_2D\STYX_2D.prj"`
 #then either of these will work:
-#   fullpath = "D:\STYX_FLOODING\STYX_2D\"
-#   fullpath = "D:\STYX_FLOODING\STYX_2D\STYX_2D.prj"
+#   `fullpath = "D:\STYX_FLOODING\STYX_2D\"`
+#   `fullpath = "D:\STYX_FLOODING\STYX_2D\STYX_2D.prj"`
 #
 # For the project file below, the file name does not match the enclosing directory, so the full path is required.
-#   fullpath = "D:\STYX_FLOODING\STYX_2D\AsphodelLevees.prj"
+#   `fullpath = "D:\STYX_FLOODING\STYX_2D\AsphodelLevees.prj"`
 
 ###############Begin Script
 #import packages

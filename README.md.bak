@@ -3,15 +3,15 @@
 #-*- coding: utf-8 -*-
 
 # RAS Project Summarizer originally created
- 9/30/2019
- Adam Price
- pigankle@gmail.com
-
-PURPOSE: This script will analyze the project files for a RAS model, and the plans, geometries and flow files in the same folder.  The output is an excel file with a table showing which geometry and flow are associated with each plan, as well as any orphaned (unused) plans, flows, or  geometries.  
-
-	As of 9/30/2019, quasi-unsteady flows, sediment plans, and water quality plans are not supported
-
- HOW TO USE:
+# 9/30/2019
+# Adam Price
+# pigankle@gmail.com
+#
+# PURPOSE: This script will analyze the project files for a RAS model, and the plans, geometries and flow files in the same folder.  The output is an excel file with a table showing which geometry and flow are associated with each plan, as well as any orphaned (unused) plans, flows, or  geometries.  
+#	As of 9/30/2019, quasi-unsteady flows, sediment plans, and water 
+# quality plans are not supported
+#
+# HOW TO USE:
  - Select your RAS project:
  -  Double click on this script and navigate to a .prj file OR
  -  Change the "fullpath" variable below.  If the .prj filename matches the  enclosing folder, you may provide the path of the enclosing folder. If the .prj has a different name from the enclosing folder, you must  provide the full path to the prj.
