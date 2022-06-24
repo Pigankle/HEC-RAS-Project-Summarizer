@@ -24,4 +24,6 @@ As of 9/30/2019, quasi-unsteady flows, sediment plans, and water quality plans a
 
 `fullpath = "D:\STYX_FLOODING\STYX_2D\AsphodelLevees.prj"`
 
-UPDATE Jun 2022:  Tweaks made to allow running in a Python3.10 environment.
+UPDATED Jun 2022:  
+ - Tweaks made to allow running in a Python3.10 environment.
+ - The .bat files were useful in remapping pythong on a USACE machine.  I no longer have access to that configuration, so I can't test whether they still work.  They are not necessary on a machine with properly configured python environment variables.
