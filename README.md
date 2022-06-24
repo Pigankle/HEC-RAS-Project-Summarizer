@@ -2,7 +2,7 @@
 
 _RAS Project Summarizer originally created on 9/30/2019 by  Adam Price pigankle@gmail.com_
 
-PURPOSE: This script will analyze the project files for a RAS model, and the plans, geometries and flow files in the same folder.  The output is an excel file with a table showing which geometry and flow are associated with each plan, as well as any orphaned (unused) plans, flows, or  geometries.  
+PURPOSE: This script will analyze the project files for a RAS model, and the plans, geometries and flow files in the same folder.  The output is an excel file with a table showing which geometry and flow are associated with each plan, as well as any orphaned (unused) plans, flows, or  geometries.  There is a sample excel output file included.
 
 As of 9/30/2019, quasi-unsteady flows, sediment plans, and water quality plans are not supported
 
@@ -24,3 +24,4 @@ As of 9/30/2019, quasi-unsteady flows, sediment plans, and water quality plans a
 
 `fullpath = "D:\STYX_FLOODING\STYX_2D\AsphodelLevees.prj"`
 
+UPDATE Jun 2022:  Tweaks made to allow running in a Python3.10 environment.
